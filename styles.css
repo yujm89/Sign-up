@@ -13,9 +13,10 @@ body{
 
 .content{
     display: flex;
+    position: relative;
 }
 
-.left{
+.left, .right{
     position: relative;
 }
 
@@ -43,7 +44,7 @@ img{
 }
 
 .first-section{
-    padding: 160px 200px 40px 40px;
+    padding: 140px 200px 40px 40px;
     font-size: 24px;
     background-color: #edeef0;
 }
